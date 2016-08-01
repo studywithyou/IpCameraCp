@@ -1,0 +1,28 @@
+@import "utility.scss";
+
+@media(max-width: $maxWidth) {
+}
+@media(min-width: $minWidth) {
+}
+
+.camera_controls {
+    width: 50px;
+    cursor: pointer;
+}
+.camera_controls_2 {
+    margin-top: 24% !important;
+}
+
+#camera_video_result {
+    position: relative;
+}
+#camera_video_area {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background-color: #ff0000;
+    @include opacity(0.5);
+}
